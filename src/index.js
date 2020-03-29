@@ -5,7 +5,7 @@ import {
   withAuthenticator,
   SignOut
 } from "aws-amplify-react";
-import "./__assets/css/styles.css";
+// import "./__assets/css/styles.css";
 
 Amplify.configure({
   Auth: {
