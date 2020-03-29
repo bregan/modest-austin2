@@ -7,6 +7,8 @@ import {
 } from "aws-amplify-react";
 // import "./__assets/css/styles.css";
 
+import config from "./config.json"
+
 Amplify.configure({
   Auth: {
     // REQUIRED only for Federated Authentication - Amazon Cognito Identity Pool ID
@@ -20,7 +22,7 @@ Amplify.configure({
     identityPoolRegion: "us-west-2",
 
     // OPTIONAL - Amazon Cognito User Pool ID
-    userPoolId: "us-west-2_mBrJrDC39",
+    userPoolId: config.Production.AWS.userPoolId, //"us-west-2_mBrJrDC39",
 
     // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
     userPoolWebClientId: "4g685b1ng9fqmedtfi1r5prl9h",
