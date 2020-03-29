@@ -25,7 +25,7 @@ Amplify.configure({
     userPoolId: config.Production.AWS.userPoolId, //"us-west-2_mBrJrDC39",
 
     // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
-    userPoolWebClientId: "311golpsb0ntk2v923tb2pbbaq",
+    userPoolWebClientId: "7og7mc48kh0c55fis950s6ggbt",
 
     // OPTIONAL - Enforce user authentication prior to accessing AWS resources or not
     mandatorySignIn: true,
