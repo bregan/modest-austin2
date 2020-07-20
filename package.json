@@ -10,7 +10,7 @@
   "dependencies": {
     "aws-amplify": "2.2.7",
     "aws-amplify-react": "3.1.8",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "randomatic": "3.1.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
